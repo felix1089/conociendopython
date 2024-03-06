@@ -1,3 +1,4 @@
+import math
 
 
 
@@ -5,4 +6,7 @@ print(round(1.3)) #redondea el valor decimal de un número a su entero más cerc
 print(round(1.5))
 print(round(1.7))
 print(abs(-77+5)) # retorna el valor absoluto 
+print(math.ceil(1.1))
+print(math.floor(1.1))
+print(math.isnan(20)) # te dice si existe el number 
 
